@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(4, 4, 46);
+    color: white;
+    font-family: "Lexend", sans-serif;
+}
+
+nav {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-color: rgb(40, 40, 92);
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background-color: rgb(88, 88, 243);
+    font-size: 1.04rem;
+}
+
+.leftside {
+    font-size: 2rem;
+}
+
+/*section1*/
+.first {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 180px 0;
+}
+
+.first>div {
+    width: 30%;
+}
+
+.l1 {
+    font-size: 3rem;
+    margin: 30px 0;
+}
+
+.colorchange {
+    color: rgb(117, 9, 150);
+}
+
+.r1 img {
+    width: 80%;
+    margin: 50px 0;
+}
+
+#element {
+    color: rgb(117, 9, 150);
+}
+
+hr {
+    border: 0;
+    background-color: rgb(40, 40, 92);
+    height: 2px;
+    margin: 20px 40px;
+}
+
+/*second section*/
+.second {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 180px 0;
+}
+.second .l2 img {
+    height: 450px;
+    width: 450px;
+    border: 2px solid grey;
+    box-shadow: 
+   5px 10px 20px  #C0C0C0;
+    border-radius: 50%;
+}
+.second>div {
+    width: 30%;
+}
+.r2 {
+    border: 2px solid grey;
+    border-radius: 5%;
+    box-shadow: 0 2px 4px rgb(7, 7, 7);
+   
+     box-shadow:
+    1px 1px 0 #1D8758,
+    0 0 20px 5px #C0FFE4,
+    inset 2px 2px 0 #D3FFEC;
+    
+    height: 80vh;
+    width: 80vw;
+    text-align: center;
+    background-color: #FFFFFF;
+    opacity: 0.4;
+    font-size: 1.4rem;
+    color: BLACK;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*third*/
+.third {
+    margin: 180px 0;
+}
+.third h1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3rem;
+    text-decoration: underline rgb(66, 148, 224);
+}
+.third h3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+}
+.third .container {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.third .box {
+    text-align: center;
+    border: 2px solid grey;
+    box-shadow:
+    5px 10px 20px  #0ff;
+    
+    height: 45vh;
+    width: 20vw;
+    margin: 20px;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    opacity: 0.8;
+}
+.third .box:hover{
+     height: 50vh;
+    
+}
+.third .box i {
+    font-size: 40px;
+}
+.third p{
+    margin: 20px;
+}
+
+/*fourth section*/
+.fourth h1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3rem;
+    text-decoration: underline rgb(66, 148, 224);
+}
+.fourth h3{
+     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+}
+.fourth .link{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+}
+.fourth button{
+    margin: 30px;
+    height: 180px;
+    width: 230px;
+    background-image: url("https://cdn.prod.website-files.com/6009ec8cda7f305645c9d91b/6010828d33e669bfe53402f9_6002086f72b727fe2401d779_2018-illustration-trends.png");
+    background-size: cover;
+}
+.fourth button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.fourth button a:hover{
+    color: rgb(25, 25, 172);
+    font-size: 25px;
+}
+
+/*footer section*/
+.fifth{
+    background-color: rgb(40, 40, 92);
+    
+}
+.fifth h1{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     font-size: 50px;
+}
+.contact{
+    font-size: 20px;
+}
+.mail{
+     font-size: 20px;
+}
+.fifth div{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+}
+.fifth ul{
+display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.fifth ul li{
+    list-style-type: none;
+    
+}
+.fifth ul li i {
+    font-size: 70px;
+   display: grid;
+   margin: 40px;
+}
